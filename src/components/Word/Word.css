@@ -1,0 +1,45 @@
+.word_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 75%;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+  margin: 10px;
+  padding: 60px 35px 35px 35px;
+}
+.word_list_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-height: 100%;
+  width: 700px;
+  border-radius: 40px;
+  background: #ecf0f3;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+
+.wiki_link {
+  font-family: "Open Sans", sans-serif;
+  padding: 20px;
+  cursor: pointer;
+  width: 50%;
+  height: 60px;
+  border-radius: 25px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #24cfaa;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: -0.5s;
+}
+.wiki_link a {
+  text-decoration: none;
+  margin: 0px;
+  color: #fff;
+}
